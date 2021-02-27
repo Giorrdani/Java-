@@ -12,8 +12,6 @@ public class Main {
     System.out.println(max.maximum(list));
     System.out.println(avr.average(list2));
     System.out.println(srchStr.search(str));
-    System.out.println(srchStr.search(str));
-    
   }
 
   //Задание 2
