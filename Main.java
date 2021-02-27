@@ -13,7 +13,8 @@ public class Main {
     System.out.println(avr.average(list2));
     System.out.println(srchStr.search(str));
   }
-
+  //Задание 1 сделано 
+ 
   //Задание 2
   static MySearch srch = (Integer x, Integer[] y) -> {
     for (int a : y) {
