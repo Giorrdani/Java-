@@ -7,7 +7,7 @@ public class Main {
 
   public static void func1() {
     System.out.println("Метод 1 начат...");
-    final int size = 10000;
+    final int size = 10000000;
     float[] arr = new float[size];
 
     for (int i = 0; i < arr.length; i++) {
