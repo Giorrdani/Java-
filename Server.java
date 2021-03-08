@@ -33,10 +33,11 @@ public class Server {
                 closeConnection();
                 }).start();
 
-
+                while(true){
                 String str2 = bf.readLine();
                 if (!str2.isEmpty()) {
                     out.writeUTF(str2);
+                }
                 }
             }
         }catch (IOException e){
